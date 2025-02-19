@@ -9688,6 +9688,42 @@ textarea.form-control {
 
 
 /* Custom CSS */
+.top-wrapper{
+  margin-top: 150px;
+}
+.banner_text{
+  padding: 0 20px;
+}
+.banner_text .subhead{
+  text-transform: uppercase;
+  color: #ffbd39;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.banner_text h1{
+  font-size: 60px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.banner_text h1 span{
+  font-weight: 800;
+  color: #ffbd39;
+}
+.banner_text h2{
+  font-size: 30px;
+  font-weight: 400;
+}
+.user-img {
+  padding: 0 80px;
+}
+.user-img img{
+  width: 400px;
+  height: 420px;
+  border-radius: 100%;
+  border: 3px solid #ffbd39;
+}
 .about-info {
   padding: 20px 0;
 }
@@ -9709,5 +9745,54 @@ textarea.form-control {
   width: 50%!important;
   border: 3px solid rgb(255, 189, 57);
   background-position: top center !important;
+}
 
+@media screen and (max-width:991px) and (min-width:768px){
+  .top-wrapper {
+    margin-top: 60px;
+  }
+  .banner_text h1 {
+    font-size: 40px;
+  }
+  .user-img {
+    padding: 0 20px;
+  }
+  .user-img img {
+    width: 300px;
+    height: 320px;
+  }
+  .about-img img {
+    height: 120px;
+    width: 120px;
+    margin: 50px 0;
+}  
+}
+@media screen and (max-width:767px) and (min-width:576px){
+  .top-wrapper {
+    margin-top: 100px;
+  }
+  .user-img {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width:575px) and (min-width:360px) {
+  .top-wrapper {
+    margin-top: 70px;
+  }
+  .banner_text {
+    padding: 10px 20px;
+  }
+  .banner_text h1 {
+    font-size: 40px;
+  }
+  .user-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  .user-img img {
+    width: 300px;
+    height: 320px;
+  }
 }
